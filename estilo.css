@@ -1,0 +1,51 @@
+:root {
+    --cor-principal: rgb(152, 148, 148);
+    --cor-secundaria: rgb(238, 143, 255);
+}
+
+nav {
+    max-width: 350px;
+    width: 100%;
+    background-color: azure;
+}
+
+nav ul {
+    list-style: none; // retira estilos da lista pontos e bolinhas
+    padding: 0;
+}
+
+nav ul li a {}
+
+body {
+    background-color: rgb(203, 203, 203);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 128, 0);
+    text-align: initial;
+    font-family: "kanit", serif;
+    line-height: 0.6;
+}
+
+p1 {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: cadetblue;
+    text-align: justify;
+    font-family: "kanit", serif;
+    line-height: 0.6;
+}
+
+p2 {
+    color: blue;
+}
+
+.logo {
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
