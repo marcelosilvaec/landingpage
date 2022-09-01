@@ -14,7 +14,9 @@ nav ul {
     padding: 0;
 }
 
-nav ul li a {}
+nav ul li a {
+    background-color: aquamarine;
+}
 
 body {
     background-color: rgb(203, 203, 203);
@@ -26,9 +28,12 @@ h1 {
     text-align: initial;
     font-family: "kanit", serif;
     line-height: 0.6;
+    border-width: 200px;
+    border-radius: 10px 20px 30px 40px;
 }
 
 p1 {
+    box-sizing: content-box;
     font-size: 3rem;
     font-family: sans-serif;
     color: cadetblue;
@@ -38,7 +43,13 @@ p1 {
 }
 
 p2 {
-    color: blue;
+    box-sizing: content-box;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: cadetblue;
+    text-align: justify;
+    font-family: "kanit", serif;
+    line-height: 0.6;
 }
 
 .logo {
