@@ -5,17 +5,22 @@
 
 nav {
     max-width: 350px;
-    width: 100%;
-    background-color: azure;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+
 }
 
 nav ul {
     list-style: none; // retira estilos da lista pontos e bolinhas
     padding: 0;
+    font-size: 2rem;
+    color: rgb(255, 128, 0);
+    font-family: "kanit", serif;
+
 }
 
 nav ul li a {
-    background-color: aquamarine;
+    
 }
 
 body {
