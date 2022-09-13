@@ -1,72 +1,166 @@
-:root {
-    --cor-principal: rgb(152, 148, 148);
-    --cor-secundaria: rgb(238, 143, 255);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(5, 9, 32);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(39, 39, 40);
+    border-radius: 20px 45px;
+    border: 3px;
+}
+
+nav .logo1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    position: float;
+    justify-items: left;
+
 }
 
 nav {
-    max-width: 350px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    justify-items: end;
+    align-items: center;
 
 }
 
 nav ul {
-    list-style: none; // retira estilos da lista pontos e bolinhas
-    padding: 0;
-    font-size: 2rem;
-    color: rgb(255, 128, 0);
-    font-family: "kanit", serif;
+
+    z-index: 99;
+    list-style: none;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px 25px;
 
 }
+
 nav ul li {
-    background-color: blue;
+    display: inline;
+    margin-left: 32px;
+    position: sticky;
+    text-decoration: none;
 }
-nav ul li: :hover{
-    background-color: rgb(203, 203, 203);
 
 nav ul li a {
-    display: flexbox;
+
+    display: inline-block;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    font-family: "share tech";
+    font-size: 25px;
+    color: #e9eef4;
+    text-decoration: none;
+
+    transition: 0.6s;
 }
 
-body {
-    background-color: rgb(203, 203, 203);
+nav ul li a:hover {
+
+    background-color: rgb(15, 15, 16);
+    border-radius: 12px 20px;
+
 }
 
-h1 {
-    font-size: 3rem;
-    color: rgb(255, 128, 0);
-    text-align: initial;
-    font-family: "kanit", serif;
-    line-height: 0.6;
-    border-width: 200px;
-    border-radius: 10px 20px 30px 40px;
+
+.title1 {
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px 25px;
+    background-color: rgb(19, 19, 21);
+
+    font-family: "share tech";
+    color: #afb3b6;
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 35px;
 }
 
-p1 {
-    box-sizing: content-box;
-    font-size: 3rem;
-    font-family: sans-serif;
-    color: cadetblue;
+.content1 {
+    /* Descricao de sobre mim */
+    width: 450px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px 25px;
+    margin-right: 150px;
     text-align: justify;
-    font-family: "kanit", serif;
-    line-height: 0.6;
+    line-height: 35px;
+    background-color: rgb(27, 28, 28);
+    color: #e9eef4;
+    font-family: "share tech";
+    font-size: 25px;
+
 }
 
-p2 {
-    box-sizing: content-box;
-    font-size: 3rem;
-    font-family: sans-serif;
-    color: cadetblue;
+.content2 {
+    /* Descricao de sobre mim */
+    display: grid;
+    width: 450px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px 25px;
+    margin-right: 150px;
     text-align: justify;
-    font-family: "kanit", serif;
-    line-height: 0.6;
+    line-height: 35px;
+    background-color: rgb(27, 28, 28);
+    color: #e9eef4;
+    font-family: "share tech";
+    font-size: 25px;
+
 }
 
-.logo {
-    position: sticky;
-    top: 0;
-    float: right;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 0px;
+.icons {
+    display: flex;
+    justify-content: calc(100%-10);
+    margin: 5px;
+    padding: 10px;
+    -webkit-filter: grayscale(100);
+    filter: grayscale(10);
 }
+
+.social-media,
+a {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin: 10px;
+
+}
+
+
+section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+
+}
+
+section Quemsou h1 {}
+
+section:nth-of-type(Quemsou) {}
+
+section:nth-of-type(Projetos) {
+    background-color: aquamarine;
+}
+
+section:nth-of-type(Serviços) {}
+
+section:nth-of-type(Falecomigo) {}
